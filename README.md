@@ -76,6 +76,7 @@
 ## 如何搭建运行
 
 * 访问 [doc/wiki.md](https://github.com/pengzhile/pandora/blob/master/doc/wiki.md) 获得详细指导。
+* docker run -e PANDORA_CLOUD=cloud -e PANDORA_SERVER=0.0.0.0:8899 -p 8899:8899 --name gpt --restart=always -d dreamsamethyst/pandora
 
 ## 其他说明
 
